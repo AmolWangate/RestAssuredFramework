@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-03T12:14:11 IST" name="Suite" finished-at="2024-05-03T12:14:14 IST" duration-ms="3660">
+    <groups>
+      <group name="regression">
+        <method signature="PostTests.createAPlaylist()[pri:0, instance:com.test.testcases.PostTests@724f138e]" name="createAPlaylist" class="com.test.testcases.PostTests"/>
+        <method signature="PutTests.updateAPlayList()[pri:0, instance:com.test.testcases.PutTests@cf65451]" name="updateAPlayList" class="com.test.testcases.PutTests"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="GetTests.GetAPlayList()[pri:0, instance:com.test.testcases.GetTests@1601e47]" name="GetAPlayList" class="com.test.testcases.GetTests"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2024-05-03T12:14:11 IST" name="Test" finished-at="2024-05-03T12:14:14 IST" duration-ms="3660">
+      <class name="com.test.testcases.PostTests">
+        <test-method signature="createAPlaylist()[pri:0, instance:com.test.testcases.PostTests@724f138e]" started-at="2024-05-03T12:14:14 IST" name="createAPlaylist" description="Create a playlist" finished-at="2024-05-03T12:14:14 IST" duration-ms="329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAPlaylist -->
+      </class> <!-- com.test.testcases.PostTests -->
+      <class name="com.test.testcases.PutTests">
+        <test-method signature="updateAPlayList()[pri:0, instance:com.test.testcases.PutTests@cf65451]" started-at="2024-05-03T12:14:14 IST" name="updateAPlayList" description="Update a playlist" finished-at="2024-05-03T12:14:14 IST" duration-ms="580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateAPlayList -->
+      </class> <!-- com.test.testcases.PutTests -->
+      <class name="com.test.testcases.GetTests">
+        <test-method signature="GetAPlayList()[pri:0, instance:com.test.testcases.GetTests@1601e47]" started-at="2024-05-03T12:14:11 IST" name="GetAPlayList" description="Get a playlist" finished-at="2024-05-03T12:14:14 IST" duration-ms="2698" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetAPlayList -->
+      </class> <!-- com.test.testcases.GetTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

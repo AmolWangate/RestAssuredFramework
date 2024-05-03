@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.test.listener.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.test.testcases.PostTests">
+        <methods>
+          <include name="createAPlaylist"/>
+        </methods>
+      </class> <!-- com.test.testcases.PostTests -->
+      <class name="com.test.testcases.PutTests">
+        <methods>
+          <include name="updateAPlayList"/>
+        </methods>
+      </class> <!-- com.test.testcases.PutTests -->
+      <class name="com.test.testcases.GetTests">
+        <methods>
+          <include name="GetAPlayList"/>
+        </methods>
+      </class> <!-- com.test.testcases.GetTests -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
